@@ -1,0 +1,4 @@
+export const CITY_CODE_VALUE = "CITY_CODE_VALUE";
+export const ARTICLE_ID_VALUE = "ARTICLE_ID_VALUE";
+export const AUTHOR_NAME = "AUTHOR_NAME";
+export const STORY_VALUE = "STORY_VALUE";
