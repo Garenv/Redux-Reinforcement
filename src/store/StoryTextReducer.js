@@ -5,8 +5,7 @@ const initialState = {
 };
 
 const StoryTextReducer = (state = initialState, action) => {
-    // console.log("Output for action.type --> " + action.type);
-    // console.log("Output for action.value --> " + action.value);
+    console.log("StoryTextReducer => " + action.value);
     switch (action.type) {
         case actionType.STORY_VALUE:
             return {
