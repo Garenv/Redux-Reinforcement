@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71779191-3726-4d0d-babf-a540e7fd87e0" name="Default" comment="" />
+    <list default="true" id="71779191-3726-4d0d-babf-a540e7fd87e0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/CreateArticle/CreateArticle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CreateArticle/CreateArticle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SearchArticle/SearchArticle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SearchArticle/SearchArticle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/AuthorNameReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/AuthorNameReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/CityCodeReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/CityCodeReducer.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,8 +23,8 @@
       <file leaf-file-name="SearchArticle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/SearchArticle/SearchArticle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-166">
-              <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+            <state relative-caret-position="215">
+              <caret line="70" column="8" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="92" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -26,14 +32,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateArticle.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateArticle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/CreateArticle/CreateArticle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+            <state relative-caret-position="251">
+              <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoryTextReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/StoryTextReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="55" lean-forward="true" selection-start-column="55" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -42,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="19" />
+              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -50,8 +65,8 @@
       <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/actions/actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="45">
+              <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -59,8 +74,17 @@
       <file leaf-file-name="AuthorNameReducer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/AuthorNameReducer.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CityCodeReducer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/store/CityCodeReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -84,6 +108,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -98,7 +125,6 @@
         <option value="$PROJECT_DIR$/src/components/CreateArticleButton/CreateArticleButton.js" />
         <option value="$PROJECT_DIR$/src/store/actions/ArticleIdReducer.js" />
         <option value="$PROJECT_DIR$/src/store/actions/AuthorReducer.js" />
-        <option value="$PROJECT_DIR$/src/store/CityCodeReducer.js" />
         <option value="$PROJECT_DIR$/src/store/AuthorReducer.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/store/actions/actions.js" />
@@ -109,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/store/AuthorNameReducer.js" />
         <option value="$PROJECT_DIR$/src/containers/SearchArticle/SearchArticle.js" />
         <option value="$PROJECT_DIR$/src/containers/CreateArticle/CreateArticle.js" />
+        <option value="$PROJECT_DIR$/src/store/CityCodeReducer.js" />
       </list>
     </option>
   </component>
@@ -121,12 +148,13 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="573" />
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="286" />
+    <option name="y" value="256" />
     <option name="width" value="1280" />
     <option name="height" value="751" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -226,24 +254,26 @@
       <updated>1537719919822</updated>
       <workItem from="1537719923026" duration="39472000" />
       <workItem from="1537895377080" duration="4133000" />
-      <workItem from="1537964256752" duration="12940000" />
+      <workItem from="1537964256752" duration="13825000" />
+      <workItem from="1537996902955" duration="5126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56545000" />
+    <option name="totallyTimeSpent" value="62556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="573" y="30" width="1280" height="751" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="751" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.2494043" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32874617" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32874617" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -268,6 +298,54 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/containers/SearchArticle/SearchArticle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/AuthorNameReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/ArticleIdReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/CreateArticle/CreateArticle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -407,30 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/CityCodeReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/StoryTextReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/package.json" />
     <entry file="file://$PROJECT_DIR$/src/store/ArticleIdReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -438,31 +493,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/actions.js">
+    <entry file="file://$PROJECT_DIR$/src/store/StoryTextReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="41" />
+        <state>
+          <caret column="55" lean-forward="true" selection-start-column="55" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="19" />
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/AuthorNameReducer.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/SearchArticle/SearchArticle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+        <state relative-caret-position="215">
+          <caret line="70" column="8" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="92" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -471,11 +533,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/CreateArticle/CreateArticle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+        <state relative-caret-position="251">
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/CityCodeReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -26,7 +26,7 @@ class SearchArticle extends Component {
 
     handleChange = event => {
         this.setState({value: event.target.value});
-        this.props.CityCodeReducerRedux(event.target.value);
+        this.props.cityCodeReducerRedux(event.target.value);
     }
 
     handleArticleId = event => {
@@ -68,7 +68,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        CityCodeReducerRedux: (value) => dispatch({type: actionType.CITY_CODE_VALUE, value}),
+        cityCodeReducerRedux: (value) => dispatch({type: actionType.CITY_CODE_VALUE, value}),
         articleIdValueRedux: (value) => dispatch({type: actionType.ARTICLE_ID_VALUE, value})
     };
 };
