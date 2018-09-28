@@ -5,9 +5,9 @@ const initialState = {
 };
 
 const CityCodeReducer = (state = initialState, action) => {
-    console.log("CityCodeReducer => " + action.value);
     switch (action.type) {
         case actionType.CITY_CODE_VALUE:
+            console.log("CityCodeReducer => " + action.value);
             return {
                 ...state,
                 cityCodeValue: action.value

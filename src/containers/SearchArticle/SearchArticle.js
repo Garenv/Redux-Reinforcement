@@ -35,22 +35,27 @@ class SearchArticle extends Component {
     }
 
     displayName = () => {
-        return(
-            <div>
-                <p>author name: {this.props.authorNameValue}</p>
-                <p>article text: {this.props.storyTextValue}</p>
-            </div>
-        );
+        if(this.state.authorNameValue === "nyc" && this.state.storyTextValue === '1') {
+            console.log(this.state.cityCodeval); // console it here
+            console.log(this.state.idVal); // console it here
+            return(
+                <div>
+                    <p>author name: {this.state.authorNameValue}</p>
+                    <p>article text: {this.state.storyTextValue}</p>
+                </div>
+            );
+        }
+        return null;
     }
 
     render() {
         return(
             <div>
                 <form onSubmit={this.handleSubmit}>
-                    <input onChange={this.handleChange} value={this.props.cityCodeValue} type="text" placeholder="city code"/>
+                    <input onChange={this.handleChange} value={this.state.cityCodeValue} type="text" placeholder="city code"/>
                     <input onChange={this.handleArticleId} value={this.state.idVal} placeholder="article id"/>
                     <button type="submit" value="Search">Submit</button>
-                    {this.state.flag ? this.displayName() : null}
+                    {this.state.flag && this.displayName()}
                 </form>
             </div>
         );

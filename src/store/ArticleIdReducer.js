@@ -5,9 +5,9 @@ const initialState = {
 };
 
 const ArticleIdReducer = (state = initialState, action) => {
-    console.log("ArticleIdReducer => " + action.value);
     switch (action.type) {
         case actionType.ARTICLE_ID_VALUE:
+            console.log("ArticleIdReducer => " + action.value);
             return {
                 ...state,
                 articleIdValue: action.value

@@ -16,9 +16,17 @@ class CreateArticle extends Component {
 
     handleSubmit = event => {
         event.preventDefault();
+
+        console.log("City code (this.state.cityValue) => " + this.state.cityValue);
         this.props.cityCodeReducerRedux(this.state.cityValue);
+
+        console.log("Story value (this.state.value) => " + this.state.value);
         this.props.storyTextValueRedux(this.state.value);
+
+        console.log("Article value (this.state.idValue) => " + this.state.idValue);
         this.props.articleIdValueRedux(this.state.idValue);
+
+        console.log("Author value (this.state.authorValue) => " + this.state.authorValue);
         this.props.authorNameValueRedux(this.state.authorValue);
 
         if(this.state.value === "") {

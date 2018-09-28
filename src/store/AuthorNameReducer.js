@@ -5,9 +5,9 @@ const initialState = {
 };
 
 const AuthorNameReducer = (state = initialState, action) => {
-    console.log("AuthorNameReducer => " + action.value);
     switch (action.type) {
         case actionType.AUTHOR_NAME:
+            console.log("AuthorNameReducer => " + action.value);
             return {
                 ...state,
                 authorNameValue: action.value
