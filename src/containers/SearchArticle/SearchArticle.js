@@ -35,13 +35,13 @@ class SearchArticle extends Component {
     }
 
     displayName = () => {
-        if(this.state.authorNameValue === "nyc" && this.state.storyTextValue === '1') {
-            console.log(this.state.cityCodeval); // console it here
-            console.log(this.state.idVal); // console it here
+        if(this.props.authorNameValue === "nyc" && this.props.articleIdValue === '1') {
+            console.log("Inside displayName() this.props.authorNameValue ==> " + this.state.cityCodeval);
+            console.log("Inside displayName() this.props.articleIdValue ==>" + this.state.idVal);
             return(
                 <div>
-                    <p>author name: {this.state.authorNameValue}</p>
-                    <p>article text: {this.state.storyTextValue}</p>
+                    <p>author name: {this.props.authorNameValue}</p>
+                    <p>article text: {this.props.articleIdValue}</p>
                 </div>
             );
         }

@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71779191-3726-4d0d-babf-a540e7fd87e0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/CreateArticle/CreateArticle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CreateArticle/CreateArticle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/SearchArticle/SearchArticle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SearchArticle/SearchArticle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/ArticleIdReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/ArticleIdReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/AuthorNameReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/AuthorNameReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/CityCodeReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/CityCodeReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/StoryTextReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/StoryTextReducer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,8 +29,8 @@
       <file leaf-file-name="SearchArticle.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/SearchArticle/SearchArticle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            <state relative-caret-position="143">
+              <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -248,12 +243,12 @@
       <workItem from="1537719923026" duration="39472000" />
       <workItem from="1537895377080" duration="4133000" />
       <workItem from="1537964256752" duration="13825000" />
-      <workItem from="1537996902955" duration="16320000" />
+      <workItem from="1537996902955" duration="17255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73750000" />
+    <option name="totallyTimeSpent" value="74685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="751" extended-state="6" />
@@ -533,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/SearchArticle/SearchArticle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        <state relative-caret-position="143">
+          <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
