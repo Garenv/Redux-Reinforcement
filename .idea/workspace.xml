@@ -29,8 +29,8 @@
       <file leaf-file-name="SearchArticle.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/SearchArticle/SearchArticle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
+            <state relative-caret-position="206">
+              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -243,12 +243,12 @@
       <workItem from="1537719923026" duration="39472000" />
       <workItem from="1537895377080" duration="4133000" />
       <workItem from="1537964256752" duration="13825000" />
-      <workItem from="1537996902955" duration="17255000" />
+      <workItem from="1537996902955" duration="17869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74685000" />
+    <option name="totallyTimeSpent" value="75299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="751" extended-state="6" />
@@ -528,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/SearchArticle/SearchArticle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
+        <state relative-caret-position="206">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

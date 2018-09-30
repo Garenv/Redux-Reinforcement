@@ -35,17 +35,12 @@ class SearchArticle extends Component {
     }
 
     displayName = () => {
-        if(this.props.authorNameValue === "nyc" && this.props.articleIdValue === '1') {
-            console.log("Inside displayName() this.props.authorNameValue ==> " + this.state.cityCodeval);
-            console.log("Inside displayName() this.props.articleIdValue ==>" + this.state.idVal);
-            return(
-                <div>
-                    <p>author name: {this.props.authorNameValue}</p>
-                    <p>article text: {this.props.articleIdValue}</p>
-                </div>
-            );
-        }
-        return null;
+        return(
+            <div>
+                <p>author name: {this.props.authorNameValue}</p>
+                <p>article text: {this.props.articleIdValue}</p>
+            </div>
+        );
     }
 
     render() {
@@ -55,7 +50,7 @@ class SearchArticle extends Component {
                     <input onChange={this.handleChange} value={this.state.cityCodeValue} type="text" placeholder="city code"/>
                     <input onChange={this.handleArticleId} value={this.state.idVal} placeholder="article id"/>
                     <button type="submit" value="Search">Submit</button>
-                    {this.state.flag && this.displayName()}
+                    {this.state.flag ? this.displayName() : null}
                 </form>
             </div>
         );
